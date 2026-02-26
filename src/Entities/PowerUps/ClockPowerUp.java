@@ -10,10 +10,10 @@ package Entities.PowerUps;
 public class ClockPowerUp extends PowerUp {
     public ClockPowerUp(int x, int y) {
         super(x, y);
-        loadImage("image/powerup_timer.png");
+        loadImage("images/powerup_timer.png");
         getImageDimensions();
         setType(10);
-        s = "image/powerup_timer.png";
+        s = "images/powerup_timer.png";
     }
 
 }

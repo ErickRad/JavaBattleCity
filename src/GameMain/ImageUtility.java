@@ -17,17 +17,17 @@ public class ImageUtility {
     }
 
     private ImageUtility() {
-        lives = loadImage("image/lives.png");
-        flagIcon = loadImage("image/flag.png");
-        enemyIcon = loadImage("image/enemy.png");
-        arrow = loadImage("image/arrow.png");
-        tankBasic = loadImage("image/tank_basic.png");
-        tankFast = loadImage("image/tank_fast.png");
-        tankPower = loadImage("image/tank_power.png");
-        tankArmor = loadImage("image/tank_armor.png");
-        background = loadImage("image/battle_city.png");
-        tank = loadImage("image/playerTank_right.png");
-        tree2 = loadImage("image/trees2.png");
+        lives = loadImage("images/lives.png");
+        flagIcon = loadImage("images/flag.png");
+        enemyIcon = loadImage("images/enemy.png");
+        arrow = loadImage("images/arrow.png");
+        tankBasic = loadImage("images/tank_basic.png");
+        tankFast = loadImage("images/tank_fast.png");
+        tankPower = loadImage("images/tank_power.png");
+        tankArmor = loadImage("images/tank_armor.png");
+        background = loadImage("images/battle_city.png");
+        tank = loadImage("images/playerTank_right.png");
+        tree2 = loadImage("images/trees2.png");
     }
 
     public Image loadImage(String imageAddress) {

@@ -63,7 +63,7 @@ public class Tank extends Sprite {
 
     public Tank(int x, int y, int lives) {
         super(x, y);
-        loadImage("image/playerTank_up.png");
+        loadImage("images/playerTank_up.png");
         getImageDimensions();
         bullets = new ArrayList<>();
         direction = 0;
@@ -175,28 +175,28 @@ public class Tank extends Sprite {
             dx = -2;
             dy = 0;
             if (starLevel > 1) dx = -2;
-            ImageIcon ii = new ImageIcon("image/playerTank_left.png");
+            ImageIcon ii = new ImageIcon("images/playerTank_left.png");
             image = ii.getImage();
             direction = 3;
         } else if (key == KeyEvent.VK_RIGHT) {
             dx = 2;
             dy = 0;
             if (starLevel > 1) dx = 2;
-            ImageIcon ii = new ImageIcon("image/playerTank_right.png");
+            ImageIcon ii = new ImageIcon("images/playerTank_right.png");
             image = ii.getImage();
             direction = 1;
         } else if (key == KeyEvent.VK_UP) {
             dy = -2;
             dx = 0;
             if (starLevel > 1) dy = -2;
-            ImageIcon ii = new ImageIcon("image/playerTank_up.png");
+            ImageIcon ii = new ImageIcon("images/playerTank_up.png");
             image = ii.getImage();
             direction = 0;
         } else if (key == KeyEvent.VK_DOWN) {
             dy = 2;
             dx = 0;
             if (starLevel > 1) dy = 2;
-            ImageIcon ii = new ImageIcon("image/playerTank_down.png");
+            ImageIcon ii = new ImageIcon("images/playerTank_down.png");
             image = ii.getImage();
             direction = 2;
         }

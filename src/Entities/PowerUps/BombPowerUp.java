@@ -10,10 +10,10 @@ package Entities.PowerUps;
 public class BombPowerUp extends PowerUp {
     public BombPowerUp(int x, int y) {
         super(x, y);
-        loadImage("image/powerup_grenade.png");
+        loadImage("images/powerup_grenade.png");
         getImageDimensions();
         setType(9);
-        s = "image/powerup_grenade.png";
+        s = "images/powerup_grenade.png";
     }
 
 }

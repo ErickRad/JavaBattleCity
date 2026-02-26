@@ -11,7 +11,7 @@ package Entities;
 public class Brick extends Block {
     public Brick(int x, int y) {
         super(x, y);
-        loadImage("image/wall_brick.png");
+        loadImage("images/wall_brick.png");
         getImageDimensions();
         setType(1);
         setHealth(1);

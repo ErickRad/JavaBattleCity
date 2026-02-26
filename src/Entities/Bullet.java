@@ -32,16 +32,16 @@ public class Bullet extends Sprite {
         super(x, y);
         this.direction = direction;
         if (direction == 0) {
-            loadImage("image/bullet_up.png");
+            loadImage("images/bullet_up.png");
         }
         if (direction == 1) {
-            loadImage("image/bullet_right.png");
+            loadImage("images/bullet_right.png");
         }
         if (direction == 2) {
-            loadImage("image/bullet_down.png");
+            loadImage("images/bullet_down.png");
         }
         if (direction == 3) {
-            loadImage("image/bullet_left.png");
+            loadImage("images/bullet_left.png");
         }
         isEnemy = Enemy;
         getImageDimensions();

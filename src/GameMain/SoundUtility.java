@@ -25,67 +25,67 @@ public class SoundUtility {
 
     public static void initialize() {
         try {
-            File bBse = new File("sound/bullet_hit_2.wav");
+            File bBse = new File("sounds/bullet_hit_2.wav");
             bulletBrickSE = AudioSystem.getClip();
             AudioInputStream ais = AudioSystem.getAudioInputStream(bBse);
             bulletBrickSE.open(ais);
             bulletBrickSE.setFramePosition(bulletBrickSE.getFrameLength());
 
-            File bTse = new File("sound/bullet_hit_1.wav");
+            File bTse = new File("sounds/bullet_hit_1.wav");
             bulletTankSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(bTse);
             bulletTankSE.open(ais);
             bulletTankSE.setFramePosition(bulletTankSE.getFrameLength());
 
-            File fSE = new File("sound/bullet_shot.wav");
+            File fSE = new File("sounds/bullet_shot.wav");
             fireSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(fSE);
             fireSE.open(ais);
             fireSE.setFramePosition(fireSE.getFrameLength());
 
-            File ex1 = new File("sound/explosion_1.wav");
+            File ex1 = new File("sounds/explosion_1.wav");
             explosion1SE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(ex1);
             explosion1SE.open(ais);
             explosion1SE.setFramePosition(explosion1SE.getFrameLength());
 
-            File ex2 = new File("sound/explosion_2.wav");
+            File ex2 = new File("sounds/explosion_2.wav");
             explosion2SE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(ex2);
             explosion2SE.open(ais);
             explosion2SE.setFramePosition(explosion2SE.getFrameLength());
 
-            File stageStart = new File("sound/stage_start.wav");
+            File stageStart = new File("sounds/stage_start.wav");
             startStageSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(stageStart);
             startStageSE.open(ais);
             startStageSE.setFramePosition(startStageSE.getFrameLength());
 
-            File pause = new File("sound/pause.wav");
+            File pause = new File("sounds/pause.wav");
             pauseSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(pause);
             pauseSE.open(ais);
             pauseSE.setFramePosition(pauseSE.getFrameLength());
 
-            File powerUpAppear = new File("sound/powerup_appear.wav");
+            File powerUpAppear = new File("sounds/powerup_appear.wav");
             powerupAppearSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(powerUpAppear);
             powerupAppearSE.open(ais);
             powerupAppearSE.setFramePosition(powerupAppearSE.getFrameLength());
 
-            File powerUpPickup = new File("sound/powerup_pick.wav");
+            File powerUpPickup = new File("sounds/powerup_pick.wav");
             powerupPickSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(powerUpPickup);
             powerupPickSE.open(ais);
             powerupPickSE.setFramePosition(powerupPickSE.getFrameLength());
 
-            File game_over = new File("sound/game_over.wav");
+            File game_over = new File("sounds/game_over.wav");
             gameoverSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(game_over);
             gameoverSE.open(ais);
             gameoverSE.setFramePosition(gameoverSE.getFrameLength());
 
-            File statistics = new File("sound/statistics_1.wav");
+            File statistics = new File("sounds/statistics_1.wav");
             statisticsSE = AudioSystem.getClip();
             ais = AudioSystem.getAudioInputStream(statistics);
             statisticsSE.open(ais);

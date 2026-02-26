@@ -140,40 +140,40 @@ public class TankAI extends Sprite {
      */
     private void imageSetUp() {
         if ("basic".equals(this.type)) {
-            loadImage("image/tank_basic_up.png");
+            loadImage("images/tank_basic_up.png");
             getImageDimensions();
 
-            this.imageUp = "image/tank_basic_up.png";
-            this.imageDown = "image/tank_basic_down.png";
-            this.imageLeft = "image/tank_basic_left.png";
-            this.imageRight = "image/tank_basic_right.png";
+            this.imageUp = "images/tank_basic_up.png";
+            this.imageDown = "images/tank_basic_down.png";
+            this.imageLeft = "images/tank_basic_left.png";
+            this.imageRight = "images/tank_basic_right.png";
 
         } else if ("armor".equals(this.type)) {
-            loadImage("image/tank_armor_up.png");
+            loadImage("images/tank_armor_up.png");
             getImageDimensions();
 
-            this.imageUp = "image/tank_armor_up.png";
-            this.imageDown = "image/tank_armor_down.png";
-            this.imageLeft = "image/tank_armor_left.png";
-            this.imageRight = "image/tank_armor_right.png";
+            this.imageUp = "images/tank_armor_up.png";
+            this.imageDown = "images/tank_armor_down.png";
+            this.imageLeft = "images/tank_armor_left.png";
+            this.imageRight = "images/tank_armor_right.png";
 
         } else if ("power".equals(this.type)) {
-            loadImage("image/tank_power_up.png");
+            loadImage("images/tank_power_up.png");
             getImageDimensions();
 
-            this.imageUp = "image/tank_power_up.png";
-            this.imageDown = "image/tank_power_down.png";
-            this.imageLeft = "image/tank_power_left.png";
-            this.imageRight = "image/tank_power_right.png";
+            this.imageUp = "images/tank_power_up.png";
+            this.imageDown = "images/tank_power_down.png";
+            this.imageLeft = "images/tank_power_left.png";
+            this.imageRight = "images/tank_power_right.png";
 
         } else if ("fast".equals(this.type)) {
-            loadImage("image/tank_fast_up.png");
+            loadImage("images/tank_fast_up.png");
             getImageDimensions();
 
-            this.imageUp = "image/tank_fast_up.png";
-            this.imageDown = "image/tank_fast_down.png";
-            this.imageLeft = "image/tank_fast_left.png";
-            this.imageRight = "image/tank_fast_right.png";
+            this.imageUp = "images/tank_fast_up.png";
+            this.imageDown = "images/tank_fast_down.png";
+            this.imageLeft = "images/tank_fast_left.png";
+            this.imageRight = "images/tank_fast_right.png";
         }
     }
 
