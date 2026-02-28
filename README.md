@@ -1,4 +1,4 @@
-# Battle City
+#Java Battle City
 Érick Radmann, Eduardo Timm Buss, DIogo Pereira Ribeiro
  
 ## Introduction
@@ -13,10 +13,10 @@ Requires a Java JDK Headful version due to the java.awt and java.swing libraries
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ErickRad/BattleCity
+git clone https://github.com/ErickRad/JavaBattleCity
 ```
 
-### 2. Change into the project directory (the repo folder is named `BattleCity`):
+### 2. Change into the project directory (the repo folder is named `JavaBattleCity`):
 
 ```bash
 cd Battle-City
